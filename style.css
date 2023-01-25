@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--purple500);
+    border-radius: 9rem;
+}
+
 /* Variables  */
 :root {
     --purple500: #281154;
-    --purple300: #270082;
-    --purple600: #1b0058;
-    --red600: #dc0000;
-    --body: #f9f6ff;
     --bg-color: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
 }
 
@@ -24,14 +29,6 @@
 .flex-col {
     display: flex;
     flex-direction: column;
-}
-
-
-/* Font Section */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html,
