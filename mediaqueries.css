@@ -1,0 +1,187 @@
+:root {
+    --font-1rem:1rem;
+}
+
+@media (max-width:840px) {
+
+    /* HERO SECTION QUERIES  */
+    .hero-section {
+        height: 80vh;
+        padding: 0 1rem;
+    }
+
+    .hero-container h1 {
+        font-size: 4rem;
+    }
+
+    .hero-container h3 {
+        font-size: 1.6rem;
+    }
+
+    .hero-container p {
+        font-weight: 300;
+        font-size: var(--font-1rem);
+    }
+
+
+    /* MUSIC SECTION QUERIES */
+    .music-container h1 {
+        font-size: 2.4rem;
+    }
+
+    .music-container h2 {
+        padding: 0 4rem;
+        font-size: var(--font-1rem);
+    }
+
+    /* CROWD SECTON QUERIES  */
+
+    .crowd-content h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0rem;
+    }
+
+    /* GIFT CARD QUERIES */
+    .gift-card-container {
+        flex-direction: column;
+    }
+
+    .cardimage {
+        max-width: 60vh;
+    }
+
+    .card-content {
+        text-align: center;
+        width: 80%;
+    }
+
+
+    /* FOOTER QUERIES */
+    footer h2 {
+        font-size: var(--font-1rem);
+    }
+
+    footer li {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+@media (max-width:620px) {
+
+    /* NAVBAR SECTION */
+    .navbar {
+        padding: 0.8rem 0.4rem;
+    }
+
+    .brand-logo {
+        font-size: var(--font-1rem);
+    }
+
+    .navbar ul {
+        gap: 9px;
+    }
+
+    .navbar li {
+        font-size: 0.8rem;
+    }
+
+    /* HERO SECTION QUERIES  */
+    .hero-section {
+        height: 60vh;
+        padding: 0 1rem;
+    }
+
+    .hero-container h1 {
+        font-size: 3rem;
+    }
+
+    .hero-container h3 {
+        font-size: 1.2rem;
+    }
+
+
+
+
+    /* MUSIC SECTION */
+    .music-section {
+        padding-top: 1rem;
+    }
+
+    .music-container h1 {
+        font-size: 2rem;
+    }
+
+    .music-container h2 {
+        padding: 0rem 1rem;
+        padding-bottom: 2rem;
+        font-size: var(--font-1rem);
+    }
+
+    .device-image {
+        position: relative;
+        top: 13rem;
+        margin-top: -13rem;
+    }
+
+    /* ABOUT MUSIC SECTION */
+
+.about-music{
+    padding-top: 14rem;
+}
+
+    .about-music p {
+        padding: 0 1rem;
+    }
+
+    .about-music h1 {
+        padding: 0 1rem;
+        font-size: 1.4rem;
+    }
+
+    /* CROWD CONTAINER */
+
+    .crowd-container {
+        height: 80vh;
+        padding: 0 1rem;
+        line-height: 1.2;
+    }
+
+    .crowd-content h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+
+    /* GIFT CARD SECTION  */
+    .gift-card-container {
+        gap: 1rem;
+        padding: 4rem 0;
+        line-height: 1.4;
+    }
+
+    .cardimage {
+        width: 40vh;
+    }
+
+    .card-content {
+        width: 80%;
+    }
+
+    /* FOOTER QUERIES */
+    footer {
+        gap: 7px;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    footer h2 {
+        font-size: 0.6rem;
+    }
+
+    footer li {
+        font-size: 0.6rem;
+    }
+}

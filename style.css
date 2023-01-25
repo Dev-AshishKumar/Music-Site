@@ -1,0 +1,304 @@
+/* Import Section */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* Variables  */
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --bg-color: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+}
+
+/* Custom Css */
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Font Section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-weight: 300;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* NAVBAR SECTION START*/
+
+
+header {
+    background-image: var(--bg-color);
+}
+
+.navbar {
+    color: white;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style: none;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a,
+li {
+    font-size: 1.4rem;
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid white;
+}
+
+/* NAVBAR SECTION END*/
+
+
+
+
+/* HERO SECTION START */
+.hero-section {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    place-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/hero_image.png);
+}
+
+.hero-container {
+    gap: 1rem;
+}
+
+.hero-container h1 {
+    font-size: 6rem;
+}
+
+.hero-container h3 {
+    font-size: 2rem;
+}
+
+.hero-container p {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+/* HERO SECTION END */
+
+
+
+/* MUSIC SECTION START */
+.music-section {
+    display: grid;
+    padding-top: 6rem;
+    background-image: var(--bg-color);
+}
+
+.music-container {
+    gap: 1rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.music-container h1 {
+    font-size: 3rem;
+}
+
+.music-container h2 {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.trail-btn {
+    padding: 0.6rem;
+    border-radius: 10px;
+    background-color: orange;
+    border: transparent 1px solid;
+    transition: 0.2s ease-in-out;
+}
+
+.trail-btn:hover {
+    color: white;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: white 1px solid;
+    transition: 0.2s ease-in-out;
+    background-color: rgb(92, 31, 3);
+}
+
+.device-image {
+    position: relative;
+    top: 24rem;
+    margin-top: -24rem;
+}
+
+/* MUSIC SECTION END */
+
+
+
+
+/* ABOUT MUSIC START */
+.about-music {
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 30rem;
+    margin-bottom: 50px;
+    place-items: center;
+    text-align: center;
+}
+
+.about-music p {
+    padding: 0 4rem;
+}
+
+.read-more {
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-repeat: 10px;
+    transition: 0.2s ease-in-out;
+    border: solid 1px transparent;
+    background-image: var(--bg-color);
+}
+
+.read-more:hover {
+    cursor: pointer;
+    border: solid 1px black;
+    transition: 0.2s ease-in-out;
+    background-image: var(--bg-color);
+
+
+}
+
+/* CROWD SECTION */
+.crowd-container {
+    display: grid;
+    height: 100vh;
+    padding: 0 6rem;
+    line-height: 1.5;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/video.jpg);
+}
+
+.crowd-content {
+    color: white;
+    text-align: center;
+}
+
+.crowd-content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* Gift Card */
+/* Gift Card */
+
+.gift-card-container {
+    gap: 2rem;
+    padding: 6rem 0;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardimage {
+    max-width: 100vh;
+}
+
+.card-content {
+    width: 40%;
+}
+
+.card-content h4 {
+    margin-bottom: 1rem;
+}
+
+.redeem {
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0.2rem 0.6rem;
+    background-image: var(--bg-color);
+
+}
+
+
+
+/* FOOTER START*/
+footer {
+    gap: 2rem;
+    color: white;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--bg-color);
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+footer li {
+    font-size: 1.2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li:hover {
+    text-decoration: underline;
+
+}
+
+/* FOOTER END */
