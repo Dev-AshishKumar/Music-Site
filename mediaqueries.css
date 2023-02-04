@@ -1,187 +1,110 @@
-:root {
-    --font-1rem:1rem;
+/* NAV BAR MEDIA QUERIES  START*/
+@media (max-width:500px) {
+    nav li {
+        font-size: 1.1rem;
+    }
 }
 
-@media (max-width:840px) {
+@media (max-width:400px) {
+    nav li {
+        font-size: 0.8rem;
+    }
+}
 
-    /* HERO SECTION QUERIES  */
-    .hero-section {
-        height: 80vh;
-        padding: 0 1rem;
+@media (max-width:350px) {
+    nav li {
+        font-size: 0.7rem;
+    }
+}
+
+/* NAV BAR MEDIA QUERIES END */
+
+
+/* Container Media Queries Start*/
+
+@media (max-width:630px) {
+
+    .container {
+        background-image: url(images/bg2.jpg);
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
 
-    .hero-container h1 {
-        font-size: 4rem;
+    .name,
+    .duration {
+        font-size: 0.7rem;
     }
 
-    .hero-container h3 {
-        font-size: 1.6rem;
+    .songsCircleImage {
+        width: 1.4rem;
+    }
+}
+
+
+/* Container Media Queries End*/
+
+@media (max-width:550px) {
+    .container {
+        /* width: 100%         ; */
     }
 
-    .hero-container p {
-        font-weight: 300;
-        font-size: var(--font-1rem);
+    .songsContainer {
+        width: 70vw;
     }
 
-
-    /* MUSIC SECTION QUERIES */
-    .music-container h1 {
-        font-size: 2.4rem;
-    }
-
-    .music-container h2 {
-        padding: 0 4rem;
-        font-size: var(--font-1rem);
-    }
-
-    /* CROWD SECTON QUERIES  */
-
-    .crowd-content h1 {
-        font-size: 1.8rem;
-        margin-bottom: 0rem;
-    }
-
-    /* GIFT CARD QUERIES */
-    .gift-card-container {
+    .control-box {
         flex-direction: column;
+        gap: 5px;
     }
 
-    .cardimage {
-        max-width: 60vh;
+    .gif-and-name {
+        gap: 3px;
     }
 
-    .card-content {
-        text-align: center;
-        width: 80%;
-    }
-
-
-    /* FOOTER QUERIES */
-    footer h2 {
-        font-size: var(--font-1rem);
-    }
-
-    footer li {
-        font-size: 0.8rem;
-    }
-}
-
-
-
-
-@media (max-width:620px) {
-
-    /* NAVBAR SECTION */
-    .navbar {
-        padding: 0.8rem 0.4rem;
-    }
-
-    .brand-logo {
-        font-size: var(--font-1rem);
-    }
-
-    .navbar ul {
-        gap: 9px;
-    }
-
-    .navbar li {
+    #playingSongName {
         font-size: 0.8rem;
     }
 
-    /* HERO SECTION QUERIES  */
-    .hero-section {
-        height: 60vh;
-        padding: 0 1rem;
+    .icons {
+        font-size: 0.6rem;
     }
-
-    .hero-container h1 {
-        font-size: 3rem;
-    }
-
-    .hero-container h3 {
-        font-size: 1.2rem;
-    }
-
-
-
-
-    /* MUSIC SECTION */
-    .music-section {
-        padding-top: 1rem;
-    }
-
-    .music-container h1 {
-        font-size: 2rem;
-    }
-
-    .music-container h2 {
-        padding: 0rem 1rem;
-        padding-bottom: 2rem;
-        font-size: var(--font-1rem);
-    }
-
-    .device-image {
-        position: relative;
-        top: 13rem;
-        margin-top: -13rem;
-    }
-
-    /* ABOUT MUSIC SECTION */
-
-.about-music{
-    padding-top: 14rem;
 }
 
-    .about-music p {
-        padding: 0 1rem;
+@media (max-width:478px) {
+    .container{
+        height: 74vh;
+        margin: 10px auto;
     }
-
-    .about-music h1 {
-        padding: 0 1rem;
-        font-size: 1.4rem;
-    }
-
-    /* CROWD CONTAINER */
-
-    .crowd-container {
-        height: 80vh;
-        padding: 0 1rem;
-        line-height: 1.2;
-    }
-
-    .crowd-content h1 {
+    .container h1 {
         font-size: 1.2rem;
-        margin-bottom: 1rem;
     }
 
-
-    /* GIFT CARD SECTION  */
-    .gift-card-container {
-        gap: 1rem;
-        padding: 4rem 0;
-        line-height: 1.4;
-    }
-
-    .cardimage {
-        width: 40vh;
-    }
-
-    .card-content {
-        width: 80%;
-    }
-
-    /* FOOTER QUERIES */
-    footer {
-        gap: 7px;
-        padding: 1rem 0;
+    .name,
+    .duration {
+        font-size: 0.5rem;
+        gap: 6px;
         text-align: center;
     }
 
-    footer h2 {
-        font-size: 0.6rem;
+    .song {
+        gap: 5px;
+        padding: 0.2rem 0.6rem;
     }
 
-    footer li {
-        font-size: 0.6rem;
+    .songList {
+        gap: 10px;
+    }
+
+    .songsCircleImage {
+        width: 1rem;
     }
 }
+
+
+/* Control Media Queries Start*/
+
+
+
+
+/* Control Media Queries End*/
